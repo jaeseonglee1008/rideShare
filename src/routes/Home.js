@@ -1,9 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Home = (props) => {
+const Home = ({history}) => {
   return (
-    <div>Home </div>
+    <div>
+    <button onClick={()=>{history.push('/posts')}}>버튼</button>
+
+    Home </div>
   )
 }
 

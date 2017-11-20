@@ -12,6 +12,7 @@ const Header = (props) => {
           <NavLink to ="/posts" className ="item" activeClassName="active">posts</NavLink>
           <NavLink to ="/login" className ="item" activeClassName="active">login</NavLink>
           <NavLink to ="/aboutme" className ="item" activeClassName="active">MyPage</NavLink>
+          <NavLink to ="/search" className ="item" activeClassName="active">Search</NavLink>
     </div>
   )
 }
